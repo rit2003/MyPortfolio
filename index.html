@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritika | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <a href="#"><img src="logo.png" alt="" class="logo" alt="" width="150vw" height="50vh"></a>
+        <ul id="navbar">
+            <li><a class="active" href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Skill</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars icon2 " onclick="openmenu()"></i>
+    </div>
+    <section class="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1><span>Ritika Chandak</span>
+            </h1>
+            <h3>from India
+                <br>And I'm a <span id="element"></span>
+            </h3>
+            <p>I'm a passionte about web Designing
+                <br>expertise is to create and website design, front hand design, and many more...
+            </p>
+        </div>
+        <div>
+            <img src="img1.png" alt="" width="80%">
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="img2.jpg" alt="" width="20px" height="450px">
+                </div>
+                <div class="about-col2">
+                    <h1>About Me</h1>
+                    <p class="par">
+                        Strong in design and integration with intuitive problem-solving skills. Proficient in
+                        Java, C, C++, Python programming and SQL. Passionate about implementing and launching
+                        new projects. Ability to translate business requirements into technical solutions.
+                        Posses good communication skills and would utilize my creative and professional skills
+                        to best use.Looking to start the career as an entry-level software engineer with reputed firm divenby technology.
+                    </p>
+                    <div class="tab">
+                        <p class="links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="links" onclick="opentab('Education')">Education</p>
+                        <p class="links" onclick="opentab('Achievements')">Achievements</p>
+                    </div>
+                    <div class="tab-content active-tab" id="Skills">
+                        <ul>
+                            <li><span>Web development</span><br>creating and desining website and web pages</li>
+                            <li><span>Analytical & Logical skills</span><br>critical thinking, research and data
+                                analysis</li>
+                            <li><span>Competitive coding</span><br>problem-solving, effcient code writing</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="Education">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Pursuing Btech in IT Branch from Medicaps University</li>
+                            <li><span>2021</span><br>Passed higher secondary from Christian Eminent School with 93.4%</li>
+                            <li><span>2019</span><br>Passed high school from Christian Eminent School with 93.6%</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="Achievements">
+                        <ul>
+                            <li>Amongest the top rank holder throughout the academics</li>
+                            <li>Awarded as the "Best Student of the year" Twice.</li>
+                            <li>Participated in various cultural activities such as Dance, Debate.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <div class="container">
+            <h1>My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor reprehenderit nostrum eum saepe totam, aliquam incidunt dolores? Quas, vero odio!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                    <h2>Landing Page</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima provident accusamus nihil debitis facere, placeat tempora iure eius recusandae cum!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-gamepad"></i>
+                    <h2>Action Game</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, sint nobis delectus quasi amet reiciendis. Est iure maiores ab corporis.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="container">
+           <h1>My Work</h1> 
+        </div>
+        <div class="work-list">
+            <div class="work"><img src="image1.jpg" alt="" >
+                <div class="layer">
+                    <h3>E-Commerce website</h3>
+                    <p>
+                        This website connects you to various buyers and sellers of goods and services online.
+                        It is like an established selling website such as amazon, or social media to drive online sales.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work"><img src="image2.jpg" alt="" >
+                <div class="layer">
+                     <h3>Active Games</h3>
+                    <p>
+                        This website of active gaming is a form of video gaming which activate a state of the art 
+                        facility with a variety of active games such as tic-tac-toe, snake game.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work"><img src="image3.avif" alt="">
+                <div class="layer">
+                   <h3>Tools and Apps</h3>
+                    <p>
+                    Creating and designing basic tools and services such as analog clock, calculator, dictonary 
+                    application and weather forecasting app. 
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a> 
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">Learn more</a>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1></i>Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>ritikachandak@2003gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>7024055187</p>
+                    <div class="icon">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <a href="" download class="btn btn2">Download Cv </a>
+                </div>
+                <div class="content-right">
+                    <form name="submit-to-google-sheet" action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="sumbit" class="btn btn3">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright  &copy; <span>R</span>itika. | All right reserved.</p>
+        </div>
+    </section>
+    <script>
+        var tablinks = document.getElementsByClassName("links");
+        var tabcontents = document.getElementsByClassName("tab-content");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        var typed = new Typed('#element', {
+            strings: ['Frontend Developer.', 'Web Developer.', 'Coder.'],
+            typeSpeed: 50,
+            backSpeed: 100,
+            backDelay: 1000,
+            loop: true,
+        });
+    </script>
+    <script>
+        var sidemenu = document.getElementById("navbar");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right ="-140px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxCM3FL7a167Y7esmzOiPAcltZKOrbpXMJ44h0wb5JGEERLiCUVrSdn0rhmN5cPcCv0/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },2000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
